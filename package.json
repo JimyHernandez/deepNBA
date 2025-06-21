@@ -1,0 +1,25 @@
+{
+  "name": "deepnba",
+  "version": "1.0.0",
+  "description": "A basketball stats tracker that collects, stores, and displays in-depth NBA player and team performance data using Python, SQL, and a modern JavaScript frontend.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimyHernandez/deepNBA.git"
+  },
+  "author": "Jimy Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JimyHernandez/deepNBA/issues"
+  },
+  "homepage": "https://github.com/JimyHernandez/deepNBA#readme",
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
